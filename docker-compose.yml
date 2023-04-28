@@ -42,8 +42,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: root
       MYSQL_DATABASE: wordpress
-      MYSQL_USER: munek
-      MYSQL_PASSWORD: munek_root
+      MYSQL_USER: muham
+      MYSQL_PASSWORD: muham_root
     # делает доступным сайт в браузере по url localhost:
     networks:
       - wpsite
